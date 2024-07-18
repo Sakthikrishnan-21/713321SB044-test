@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .order {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .order h2 {
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+        .order p {
+            margin-bottom: 10px;
+        }
+        .order ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .order li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="order">
+            <h2>Order #12345</h2>
+            <p>Date: January 1, 2024</p>
+            <ul>
+                <li>Product 1 - Quantity: 2 - Price: $100</li>
+                <li>Product 2 - Quantity: 1 - Price: $200</li>
+            </ul>
+            <p>Total: $300</p>
+            <button>Track Order</button>
+        </div>
+        <div class="order">
+            <h2>Order #67890</h2>
+            <p>Date: January 5, 2024</p>
+            <ul>
+                <li>Product 3 - Quantity: 1 - Price: $200</li>
+            </ul>
+            <p>Total: $200</p>
+            <button>Track Order</button>
+        </div>
+    </div>
+</body>
+</html>
